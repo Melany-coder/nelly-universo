@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mi pequeño Jazmin · El universo de nuestro amor</title>
+  <meta name="description" content="Un espacio para leer el capítulo guardado con cariño." />
+  <style>
+    :root { --ink:#29162f; --muted:#6f5377; --plum:#6b2f86; --rose:#ff87b8; }
+    * { box-sizing: border-box; }
+    body {
+      margin:0; min-height:100vh; color:var(--ink);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+      background: radial-gradient(circle at 15% 5%, rgba(255,135,184,.28), transparent 30rem),
+                  radial-gradient(circle at 88% 10%, rgba(155,95,206,.22), transparent 26rem),
+                  linear-gradient(180deg,#fff7fc,#f6ecff 45%,#fff9fc);
+      line-height:1.5;
+    }
+    a { color:inherit; }
+    .topbar { position:sticky; top:0; z-index:10; backdrop-filter:blur(18px);
+      background:rgba(255,249,252,.78); border-bottom:1px solid rgba(91,49,105,.17); }
+    .topbar-inner { max-width:900px; margin:0 auto; padding:.75rem 1rem;
+      display:flex; align-items:center; justify-content:space-between; gap:1rem; }
+    .back { text-decoration:none; font-weight:800; font-size:.86rem; color:#57305f;
+      padding:.45rem .8rem; border-radius:999px; background:rgba(255,255,255,.62);
+      border:1px solid rgba(107,47,134,.12); }
+    .brand { font-weight:800; color:var(--plum); white-space:nowrap; }
+    header { padding:3.5rem 1rem 2.5rem; }
+    .wrap { max-width:900px; margin:0 auto; }
+    .badge { display:inline-flex; align-items:center; gap:.5rem; padding:.45rem .85rem;
+      border-radius:999px; background:rgba(255,255,255,.72); border:1px solid rgba(107,47,134,.15);
+      font-weight:800; font-size:.88rem; color:#69356f; }
+    h1 { margin:1rem 0 .6rem; color:#4c1765; font-family:Georgia, serif;
+      font-size:clamp(2.2rem,6vw,4.2rem); line-height:1; }
+    .sub { margin:0; max-width:620px; color:var(--muted); font-size:clamp(1.05rem,2vw,1.35rem);
+      font-weight:650; }
+    .banner { border-radius:20px; padding:1.2rem; background:var(--grad);
+      border:1px solid rgba(107,47,134,.12); box-shadow:0 24px 60px rgba(69,27,91,.18); }
+    .grid { display:grid; grid-template-columns:repeat(3,1fr); gap:1rem; }
+    .slot { background:rgba(255,255,255,.78); border:1px dashed rgba(107,47,134,.35);
+      border-radius:16px; padding:1.1rem; min-height:190px; display:flex; flex-direction:column;
+      justify-content:space-between; gap:1rem; }
+    .slot h2 { margin:0 0 .5rem; font-size:1.15rem; color:#40114f; }
+    .slot p { margin:0; color:#65456e; font-weight:560; font-size:.98rem; }
+    .placeholder { border-radius:12px; min-height:70px; background:repeating-linear-gradient(135deg,
+      rgba(215,183,244,.20) 0 10px, rgba(255,255,255,0) 10px 20px);
+      border:1px dashed rgba(107,47,134,.22); }
+    .chips { display:flex; flex-wrap:wrap; gap:.45rem; }
+    .chip { padding:.38rem .6rem; border-radius:999px; background:rgba(215,183,244,.32);
+      color:#562c61; border:1px solid rgba(107,47,134,.12); font-size:.82rem; font-weight:760; }
+    section { padding:2rem 1rem; }
+    .note { background:rgba(86,28,103,.92); color:#fff; border-radius:18px; padding:1.6rem;
+      box-shadow:0 24px 60px rgba(69,27,91,.18); }
+    .note p { margin:0; color:rgba(255,255,255,.88); font-weight:650; }
+    .quote { margin-top:1rem; padding-left:1rem; border-left:4px solid var(--rose);
+      font-family:Georgia, serif; font-size:1.4rem; line-height:1.2; }
+    footer { padding:2.5rem 1rem 3rem; text-align:center; color:#74507c; font-weight:650; font-size:.95rem; }
+    @media (max-width:760px){ .grid{ grid-template-columns:1fr; } .topbar-inner{flex-direction:column; align-items:flex-start;} }
+</style>
+</head>
+<body style="--grad: linear-gradient(135deg, #fff0d6, #dff7eb);">
+  <nav class="topbar">
+    <div class="topbar-inner">
+      <a class="back" href="nelly-universo.html">&larr; Volver al universo</a>
+      <div class="brand">Nelly Sofia</div>
+    </div>
+  </nav>
+
+  <header>
+    <div class="wrap">
+      <div class="banner">
+        <span class="badge">🌼 Capítulo</span>
+        <h1>Mi pequeño Jazmin</h1>
+        <p class="sub">Un espacio para leer el capítulo guardado con cariño</p>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="wrap">
+      <div class="grid">
+        <article class="slot">
+          <div>
+            <h2>Fragmento de lectura</h2>
+            <p>Espacio libre para escribir o pegar el contenido.</p>
+          </div>
+          <div class="placeholder" aria-hidden="true"></div>
+        </article>
+        <article class="slot">
+          <div>
+            <h2>Frase del libro</h2>
+            <p>Espacio libre para escribir o pegar el contenido.</p>
+          </div>
+          <div class="placeholder" aria-hidden="true"></div>
+        </article>
+        <article class="slot">
+          <div>
+            <h2>Nota para el capítulo siguiente</h2>
+            <p>Espacio libre para escribir o pegar el contenido.</p>
+          </div>
+          <div class="placeholder" aria-hidden="true"></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="wrap">
+      <div class="note">
+        <p>Este espacio está reservado para un espacio para leer el capítulo guardado con cariño. Aquí caben las frases que quieras guardar, las escenas que más te emocionan y las palabras que quieres que nunca se pierdan.</p>
+        <div class="quote">Cada tarjeta es un lugar esperando una frase de Nelly Sofia.</div>
+      </div>
+    </section>
+
+    <section class="wrap">
+      <div class="chips"><span class="chip">Lecturas</span><span class="chip">Jazmin</span><span class="chip">Recuerdos</span></div>
+    </section>
+  </main>
+
+  <footer>Hecho con colores lila, rosa y mucho amor para Nelly Sofia.</footer>
+</body>
+</html>
